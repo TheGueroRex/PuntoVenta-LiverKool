@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="bg-slate-800">
       
-    <header>
-      Hola k
+    <header className="bg-blue-900 flex justify-center items-center text-red-500 text-3xl w-full h-[150px]">
+      <h1>Punto de Venta <strong>LiverKool</strong></h1>
     </header>
 
     </div>
